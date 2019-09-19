@@ -2,17 +2,23 @@ A stack is a linear data structure that allows data to be stored. Access to its 
 
 It is characterized by the operations of **push, pop, peek**, performing these operations with the end of the stack (top).
 
-![](ima.png)
+![](stack.png)
 
 ##  Operations of a stack
 #### Push
 It is when we add a new element to our stack. This is added on top of the stack.
+![](push.png)
+
 
 #### Peek
 It shows us the element of our stack that is at the top, that is, the last element added.
+![](peek.png)
+
 
 #### Pop
 Operation that allows us to remove or eliminate the last element added to the stack
+![](pop.png)
+
 
 ## Creating a stack application
 We will build a simple application that allows us to perform the operations of a stack

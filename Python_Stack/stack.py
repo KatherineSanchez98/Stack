@@ -23,7 +23,7 @@ test, we instanciate it, we add values, delete the last one and print.
 class Node:
 	def __init__ (self, data): #constructor of class Node
 		self.data = data #assign the value sent as a parameter to our class atribute
-		self.next =  #initialize the pointer link to None (null)
+		self.next = None #initialize the pointer link to None (null)
 
 class Stack:
 	def __init__(self): 	#constructor of class Stack
@@ -79,10 +79,10 @@ class Stack:
 	
 
 newStack = Stack()			#create a ner stack
-newStack.push(Node("a"))	#add element a
-newStack.push(Node("b"))	#add element b
-newStack.push(Node("c"))	#add element c
-newStack.push(Node("d"))	#add element d
+newStack.push(Node("1"))	#add element 1
+newStack.push(Node("2"))	#add element 2
+newStack.push(Node("3"))	#add element 3
+newStack.push(Node("4"))	#add element 4
 newStack.print_list()		#print list
 newStack.peek()				#peek method
 newStack.pop()				#pop method
