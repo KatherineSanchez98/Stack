@@ -107,10 +107,10 @@ def print_list(self):
 Finally, we create a new instance of Stack. In this instance we add some values, we print these themselves; Then we make a peek that shows us the last added value and finally we pop and print the list again.
 ``` python
 newStack = Stack()
-newStack.push(Node("a"))
-newStack.push(Node("b"))
-newStack.push(Node("c"))
-newStack.push(Node("d"))
+newStack.push(Node("1"))
+newStack.push(Node("2"))
+newStack.push(Node("3"))
+newStack.push(Node("4"))
 newStack.print_list()
 newStack.peek()
 newStack.pop()
@@ -120,11 +120,11 @@ newStack.print_list()
 #### Output
 Our output is like this:
 ``` python
-a -> b -> c -> d 
+1 -> 2 -> 3 -> 4 
 
-d 
+4 
 
-a -> b -> c 
+1 -> 2 -> 3 
 
 ```
 
