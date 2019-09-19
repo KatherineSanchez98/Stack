@@ -1,12 +1,3 @@
----
-title: Stack
-date: 2019-09-18 17:28:49
-tags: [python, data structures, terminal, console, cmd]
-categories:
-- [Data structures]
----
-
-  
 A stack is a linear data structure that allows data to be stored. Access to its elements is:  **LIFO** (Last In, First Out).
 
 It is characterized by the operations of **push, pop, peek**, performing these operations with the end of the stack (top).
